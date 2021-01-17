@@ -89,8 +89,11 @@ def cancel_order(order_id):
 def cancel_all_orders():
     app.reqGlobalCancel()
 
-
-# limit_order('BUY', 1, 3780)
+# cancel_all_orders()
+# limit_order('BUY', 1, 3700)
 # time.sleep(6)
-# cancel_order(app.nextValidOrderId)
-stop_order(app.nextValidOrderId, 'SELL', 1, 3783)
+# app.reqIds(-1)
+cancel_order(2)
+# stop_order(app.nextValidOrderId, 'SELL', 1, 3783)
+
+
