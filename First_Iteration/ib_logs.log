@@ -1,0 +1,97 @@
+2021-01-18 00:03:15,382|Contract details extracted <class 'ibapi.contract.Contract'>
+2021-01-18 00:03:15,528| historicalData:reqID:1, date:20210117  17:00:00, open:3750.0, high:3754.75, low:3746.5, close:3754.25, volume:2846
+2021-01-18 00:03:15,528| historicalData:reqID:1, date:20210117  17:05:00, open:3754.25, high:3756.0, low:3753.75, close:3755.0, volume:959
+2021-01-18 00:03:15,528| historicalData:reqID:1, date:20210117  17:10:00, open:3755.0, high:3758.5, low:3755.0, close:3758.0, volume:1559
+2021-01-18 00:03:15,528| historicalData:reqID:1, date:20210117  17:15:00, open:3758.0, high:3758.5, low:3756.75, close:3757.25, volume:960
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:20:00, open:3757.25, high:3758.5, low:3755.5, close:3758.5, volume:745
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:25:00, open:3758.5, high:3760.0, low:3757.75, close:3759.25, volume:924
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:30:00, open:3759.5, high:3760.0, low:3757.0, close:3758.0, volume:802
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:35:00, open:3757.75, high:3757.75, low:3756.5, close:3757.0, volume:263
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:40:00, open:3757.0, high:3757.0, low:3752.75, close:3752.75, volume:828
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:45:00, open:3752.5, high:3754.25, low:3750.25, close:3750.75, volume:1561
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:50:00, open:3750.5, high:3751.5, low:3748.75, close:3750.0, volume:1511
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  17:55:00, open:3750.0, high:3751.75, low:3748.25, close:3749.75, volume:963
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  18:00:00, open:3749.5, high:3750.25, low:3740.5, close:3745.25, volume:3837
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  18:05:00, open:3745.0, high:3748.75, low:3743.25, close:3748.0, volume:1920
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  18:10:00, open:3748.25, high:3750.5, low:3748.0, close:3750.25, volume:1074
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  18:15:00, open:3750.25, high:3750.25, low:3747.25, close:3750.0, volume:1057
+2021-01-18 00:03:15,529| historicalData:reqID:1, date:20210117  18:20:00, open:3749.75, high:3754.75, low:3749.0, close:3754.0, volume:1505
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  18:25:00, open:3753.75, high:3755.5, low:3752.75, close:3755.0, volume:1063
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  18:30:00, open:3754.75, high:3756.25, low:3752.75, close:3755.75, volume:1015
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  18:35:00, open:3756.0, high:3756.5, low:3754.0, close:3754.25, volume:897
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  18:40:00, open:3754.25, high:3754.75, low:3751.5, close:3754.5, volume:899
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  18:45:00, open:3754.5, high:3756.75, low:3754.5, close:3754.75, volume:753
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  18:50:00, open:3754.75, high:3756.0, low:3754.0, close:3756.0, volume:515
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  18:55:00, open:3755.75, high:3757.25, low:3755.25, close:3756.75, volume:678
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  19:00:00, open:3756.75, high:3757.75, low:3755.25, close:3757.25, volume:815
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  19:05:00, open:3757.25, high:3757.25, low:3754.25, close:3755.75, volume:803
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  19:10:00, open:3755.75, high:3756.0, low:3752.0, close:3752.5, volume:1007
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  19:15:00, open:3752.0, high:3753.75, low:3750.5, close:3751.75, volume:1181
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  19:20:00, open:3751.75, high:3753.25, low:3749.0, close:3750.0, volume:1315
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  19:25:00, open:3750.25, high:3752.0, low:3749.25, close:3751.0, volume:663
+2021-01-18 00:03:15,530| historicalData:reqID:1, date:20210117  19:30:00, open:3751.0, high:3753.0, low:3751.0, close:3751.5, volume:986
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  19:35:00, open:3751.5, high:3751.5, low:3748.75, close:3751.0, volume:1011
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  19:40:00, open:3751.0, high:3752.75, low:3750.25, close:3752.5, volume:568
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  19:45:00, open:3752.5, high:3754.75, low:3751.5, close:3754.25, volume:1165
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  19:50:00, open:3754.0, high:3755.5, low:3753.5, close:3754.5, volume:665
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  19:55:00, open:3754.5, high:3754.5, low:3752.75, close:3753.25, volume:494
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:00:00, open:3753.25, high:3755.75, low:3752.5, close:3753.75, volume:993
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:05:00, open:3754.0, high:3754.0, low:3751.25, close:3752.25, volume:814
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:10:00, open:3752.25, high:3755.25, low:3751.0, close:3755.0, volume:870
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:15:00, open:3754.75, high:3755.25, low:3753.0, close:3755.0, volume:406
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:20:00, open:3755.0, high:3755.25, low:3753.25, close:3753.5, volume:265
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:25:00, open:3753.5, high:3754.0, low:3752.5, close:3753.75, volume:447
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:30:00, open:3753.75, high:3755.0, low:3751.0, close:3752.5, volume:909
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:35:00, open:3752.5, high:3753.75, low:3751.5, close:3753.0, volume:851
+2021-01-18 00:03:15,531| historicalData:reqID:1, date:20210117  20:40:00, open:3752.75, high:3753.0, low:3751.25, close:3752.25, volume:380
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  20:45:00, open:3752.0, high:3754.25, low:3750.0, close:3754.25, volume:910
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  20:50:00, open:3754.25, high:3755.0, low:3753.5, close:3754.0, volume:472
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  20:55:00, open:3754.0, high:3754.5, low:3753.25, close:3753.5, volume:182
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:00:00, open:3753.75, high:3754.0, low:3753.25, close:3753.75, volume:215
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:05:00, open:3753.75, high:3754.0, low:3752.0, close:3752.0, volume:237
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:10:00, open:3752.0, high:3753.25, low:3751.0, close:3753.0, volume:349
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:15:00, open:3752.75, high:3752.75, low:3751.5, close:3752.5, volume:293
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:20:00, open:3752.5, high:3753.0, low:3751.0, close:3752.0, volume:329
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:25:00, open:3751.75, high:3753.0, low:3751.5, close:3751.75, volume:192
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:30:00, open:3751.75, high:3752.75, low:3750.0, close:3752.75, volume:538
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:35:00, open:3752.5, high:3755.5, low:3752.25, close:3754.75, volume:804
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:40:00, open:3754.75, high:3755.25, low:3754.25, close:3755.25, volume:470
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:45:00, open:3755.25, high:3755.25, low:3753.75, close:3754.0, volume:419
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:50:00, open:3754.0, high:3754.5, low:3752.75, close:3753.5, volume:292
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  21:55:00, open:3753.5, high:3754.75, low:3753.25, close:3754.25, volume:311
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  22:00:00, open:3754.25, high:3754.75, low:3753.75, close:3754.0, volume:199
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  22:05:00, open:3754.25, high:3754.75, low:3753.5, close:3754.75, volume:173
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  22:10:00, open:3754.5, high:3754.5, low:3753.0, close:3753.25, volume:218
+2021-01-18 00:03:15,532| historicalData:reqID:1, date:20210117  22:15:00, open:3753.0, high:3753.25, low:3752.5, close:3753.0, volume:234
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:20:00, open:3753.0, high:3753.25, low:3752.75, close:3753.0, volume:128
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:25:00, open:3752.75, high:3752.75, low:3750.5, close:3752.25, volume:641
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:30:00, open:3752.25, high:3753.25, low:3751.75, close:3753.25, volume:467
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:35:00, open:3753.25, high:3753.5, low:3752.75, close:3753.0, volume:220
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:40:00, open:3753.0, high:3753.5, low:3752.75, close:3753.25, volume:113
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:45:00, open:3753.25, high:3753.25, low:3752.75, close:3753.25, volume:98
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:50:00, open:3753.25, high:3753.5, low:3752.5, close:3752.75, volume:212
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  22:55:00, open:3752.75, high:3754.5, low:3752.5, close:3754.0, volume:321
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:00:00, open:3753.75, high:3754.25, low:3753.0, close:3753.75, volume:261
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:05:00, open:3753.75, high:3754.0, low:3751.75, close:3753.25, volume:386
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:10:00, open:3753.0, high:3754.5, low:3753.0, close:3754.5, volume:217
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:15:00, open:3754.5, high:3755.5, low:3754.0, close:3754.5, volume:503
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:20:00, open:3754.5, high:3754.5, low:3753.25, close:3753.25, volume:270
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:25:00, open:3753.5, high:3755.0, low:3753.5, close:3754.75, volume:181
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:30:00, open:3754.5, high:3755.5, low:3754.25, close:3755.0, volume:287
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:35:00, open:3755.0, high:3757.75, low:3755.0, close:3757.25, volume:554
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:40:00, open:3757.25, high:3758.0, low:3757.25, close:3757.5, volume:452
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:45:00, open:3757.25, high:3757.5, low:3756.25, close:3757.25, volume:264
+2021-01-18 00:03:15,533| historicalData:reqID:1, date:20210117  23:50:00, open:3757.25, high:3758.0, low:3757.0, close:3757.25, volume:300
+2021-01-18 00:03:15,534| historicalData:reqID:1, date:20210117  23:55:00, open:3757.5, high:3757.75, low:3756.5, close:3757.25, volume:313
+2021-01-18 00:03:15,534| historicalData:reqID:1, date:20210118  00:00:00, open:3757.0, high:3757.5, low:3756.0, close:3756.25, volume:229
+2021-01-18 00:03:20,386|last 5 mins data: 
+2021-01-18 00:04:33,555|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 00:04:38,558|last 5 mins data: {'Date': '20210118  00:00:00', 'Open': 3757.0, 'High': 3757.5, 'Low': 3755.75, 'Close': 3756.5, 'Volume': 379}
+2021-01-18 00:09:48,976|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 00:09:53,984|last 5 mins data: {'Date': '20210118  00:05:00', 'Open': 3756.25, 'High': 3756.25, 'Low': 3754.0, 'Close': 3755.0, 'Volume': 516}
+2021-01-18 00:25:01,813|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 00:25:06,819|last 5 mins data: {'Date': '20210118  00:20:00', 'Open': 3755.25, 'High': 3756.0, 'Low': 3754.75, 'Close': 3755.75, 'Volume': 170}
+2021-01-18 00:30:06,825|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 00:30:11,830|last 5 mins data: {'Date': '20210118  00:30:00', 'Open': 3756.5, 'High': 3756.5, 'Low': 3756.5, 'Close': 3756.5, 'Volume': 6}
+2021-01-18 00:35:11,825|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 00:35:16,828|last 5 mins data: {'Date': '20210118  00:35:00', 'Open': 3756.5, 'High': 3756.5, 'Low': 3756.5, 'Close': 3756.5, 'Volume': 0}

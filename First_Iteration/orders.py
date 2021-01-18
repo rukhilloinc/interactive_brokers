@@ -8,6 +8,8 @@ from ibapi.order import Order
 import threading
 import time
 
+from logger import log
+
 
 class Orders(EWrapper, EClient):
     def __init__(self):
@@ -50,6 +52,7 @@ def market_order(action, size):
     order.orderType = "MKT"
     order.totalQuantity = size
     app.placeOrder(app.nextValidOrderId, contract(), order)
+    log(f'market order placed, {action, size}')
 
 
 def stop_order(order_id, action, size, stopPrice):
@@ -60,6 +63,8 @@ def stop_order(order_id, action, size, stopPrice):
     order.auxPrice = stopPrice
     order.totalQuantity = size
     app.placeOrder(order_id, contract(), order)
+    log(f'stop order placed {order_id, action, size, stopPrice}')
+
 
 
 def stop_limit_order(action, size, limitPrice, stopPrice):
@@ -71,6 +76,7 @@ def stop_limit_order(action, size, limitPrice, stopPrice):
     order.lmtPrice = limitPrice
     order.auxPrice = stopPrice
     app.placeOrder(app.nextValidOrderId, contract(), order)
+    log(f'stop limit order placed {action, size, limitPrice, stopPrice}')
 
 
 def limit_order(action, size, limitPrice):
@@ -80,14 +86,17 @@ def limit_order(action, size, limitPrice):
     order.totalQuantity = size
     order.lmtPrice = limitPrice
     app.placeOrder(app.nextValidOrderId, contract(), order)
+    log(f'limit order placed: {action}, {size}, {limitPrice}')
 
 
 def cancel_order(order_id):
     app.cancelOrder(order_id)
+    log(f'order cancelled {order_id}')
 
 
 def cancel_all_orders():
     app.reqGlobalCancel()
+    log('All orders cancelled')
 
 # cancel_all_orders()
 # limit_order('BUY', 1, 3700)

@@ -16,31 +16,16 @@ class TradingApp(EWrapper, EClient):
         self.data = {}
 
     def historicalData(self, reqId, bar):
-        if reqId not in self.data:
-            self.data[reqId] = [{'date_time': bar.date, 'open': bar.open,
-                                 'high': bar.high, 'low': bar.low,
-                                 'close': bar.close, 'volume': bar.volume}]
 
-        if reqId in self.data:
-            self.data[reqId].append({'date_time': bar.date, 'open': bar.open,
-                                     'high': bar.high, 'low': bar.low,
-                                     'close': bar.close, 'volume': bar.volume})
-        # print( f"reqID:{reqId}, date:{bar.date}, open:{bar.open}, high:{bar.high}, low:{bar.low},
-        # close:{bar.close}, volume:{bar.volume}")
-        time = bar.date
-        time.split()
-        m = {'date_time': bar.date, 'open': bar.open,
-             'high': bar.high, 'low': bar.low,
-             'close': bar.close, 'volume': bar.volume}
+        print( f"reqID:{reqId}, date:{bar.date}, open:{bar.open}, high:{bar.high}, low:{bar.low}, close:{bar.close}, volume:{bar.volume}")
 
-        
+    def headTimestamp(self, reqId: int, headTimestamp: str):
+        print("HeadTimestamp. ReqId:", reqId, "HeadTimeStamp:", headTimestamp)
 
 
-
-
-
-
-
+        # m = {'date_time': bar.date, 'open': bar.open,
+        #      'high': bar.high, 'low': bar.low,
+        #      'close': bar.close, 'volume': bar.volume}
 
 
     def nextValidId(self, orderId):
@@ -82,12 +67,14 @@ def histData(cont, duration, candle_size):
                           durationStr=duration,
                           barSizeSetting=candle_size,
                           whatToShow='ADJUSTED_LAST',
-                          useRTH=1,
+                          useRTH=0,
                           formatDate=1,
-                          keepUpToDate=0,
+                          keepUpToDate=False,
                           chartOptions=[])  # EClient function to request contract details
 
+def get_last_data():
+    app.reqHeadTimeStamp(4101, contract(), 'ADJUSTED_LAST', 0, 1)
 
 histData(contract(), '1 D', '5 mins')
-
-time.sleep(5)
+# get_last_data()
+# time.sleep(2)
