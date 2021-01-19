@@ -1,4 +1,6 @@
 # Import libraries
+import datetime
+from datetime import datetime
 from ibapi.client import EClient
 from ibapi.wrapper import EWrapper
 from ibapi.contract import Contract
@@ -70,20 +72,38 @@ def get_last_5_min_data():
     histData(generalStk(), '1 D', '5 mins')
     time.sleep(5)
     data = pd.DataFrame(app.data)
-    l = data.tail(1)
-    dataFrame = pd.DataFrame(l)
+    l = data.tail(3)
+    h = l.head(2)
+    dataFrame = pd.DataFrame(h)
     jso = dataFrame.to_json()
     js = json.loads(jso)
-    g = list(js['1'].keys())
-    g1 = str(g)[2:-2]
-    data = js['1'][g1]
-    log(f'last 5 mins data: {data}')
+    log(f"last 5 mins data: {js['1']}")
     return data
 
 
-while True:
-    get_last_5_min_data()
-    time.sleep(300)
+#
+# while True:
+#     current_time = datetime.datetime.now()
+#     if current_time.minute % 5 == 0:
+#         get_last_5_min_data()
 
 
+def get_engulfing_candle():
+    date_time_obj = []
+    data = get_last_5_min_data()
+    for i in data.values():
+        time = i['Date'].split()[1]
+        date_time_obj.append(datetime.strptime(time, '%H:%M:%S').time())
+    d = {'earliest': min(date_time_obj), 'latest': max(date_time_obj)}
+    l = []
+    for i in data.values():
+        time = i['Date'].split()[1]
+        if str(d['earliest']) == time:
+            l.append({'previous': i})
+        if str(d['latest']) == time:
+            l.append({'latest': i})
 
+    log(f"Manipulated data {l}")
+
+
+get_engulfing_candle()

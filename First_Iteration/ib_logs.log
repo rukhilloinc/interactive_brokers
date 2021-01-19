@@ -95,3 +95,175 @@
 2021-01-18 00:30:11,830|last 5 mins data: {'Date': '20210118  00:30:00', 'Open': 3756.5, 'High': 3756.5, 'Low': 3756.5, 'Close': 3756.5, 'Volume': 6}
 2021-01-18 00:35:11,825|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
 2021-01-18 00:35:16,828|last 5 mins data: {'Date': '20210118  00:35:00', 'Open': 3756.5, 'High': 3756.5, 'Low': 3756.5, 'Close': 3756.5, 'Volume': 0}
+2021-01-18 10:12:13,553|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:12:18,560|last 5 mins data: {'Date': '20210118  10:10:00', 'Open': 3766.0, 'High': 3766.25, 'Low': 3765.75, 'Close': 3766.0, 'Volume': 188}
+2021-01-18 10:17:18,561|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:17:23,567|last 5 mins data: {'Date': '20210118  10:15:00', 'Open': 3766.0, 'High': 3766.0, 'Low': 3765.5, 'Close': 3765.5, 'Volume': 239}
+2021-01-18 10:22:23,570|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:22:28,573|last 5 mins data: {'Date': '20210118  10:20:00', 'Open': 3765.25, 'High': 3766.0, 'Low': 3765.25, 'Close': 3766.0, 'Volume': 439}
+2021-01-18 10:27:28,578|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:27:33,585|last 5 mins data: {'Date': '20210118  10:25:00', 'Open': 3765.75, 'High': 3766.0, 'Low': 3765.75, 'Close': 3766.0, 'Volume': 374}
+2021-01-18 10:32:33,587|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:32:38,594|last 5 mins data: {'Date': '20210118  10:30:00', 'Open': 3765.75, 'High': 3767.5, 'Low': 3765.5, 'Close': 3767.25, 'Volume': 691}
+2021-01-18 10:34:48,843|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:34:53,850|last 5 mins data: {'Date': '20210118  10:30:00', 'Open': 3765.75, 'High': 3768.25, 'Low': 3765.5, 'Close': 3767.25, 'Volume': 1830}
+2021-01-18 10:39:53,854|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:39:58,858|last 5 mins data: {'Date': '20210118  10:35:00', 'Open': 3767.0, 'High': 3767.75, 'Low': 3767.0, 'Close': 3767.5, 'Volume': 592}
+2021-01-18 10:44:58,861|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:45:03,865|last 5 mins data: {'Date': '20210118  10:40:00', 'Open': 3767.5, 'High': 3767.5, 'Low': 3765.5, 'Close': 3765.75, 'Volume': 524}
+2021-01-18 10:50:03,873|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:50:08,878|last 5 mins data: {'Date': '20210118  10:45:00', 'Open': 3765.75, 'High': 3766.25, 'Low': 3765.5, 'Close': 3766.0, 'Volume': 325}
+2021-01-18 10:55:08,882|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 10:55:13,889|last 5 mins data: {'Date': '20210118  10:55:00', 'Open': 3766.5, 'High': 3766.5, 'Low': 3766.25, 'Close': 3766.25, 'Volume': 2}
+2021-01-18 11:00:13,900|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:00:18,910|last 5 mins data: {'Date': '20210118  11:00:00', 'Open': 3767.0, 'High': 3767.25, 'Low': 3767.0, 'Close': 3767.25, 'Volume': 34}
+2021-01-18 11:05:18,913|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:05:23,916|last 5 mins data: {'Date': '20210118  11:05:00', 'Open': 3767.5, 'High': 3767.75, 'Low': 3767.5, 'Close': 3767.75, 'Volume': 18}
+2021-01-18 11:10:23,926|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:10:28,932|last 5 mins data: {'Date': '20210118  11:10:00', 'Open': 3766.75, 'High': 3767.0, 'Low': 3766.75, 'Close': 3767.0, 'Volume': 2}
+2021-01-18 11:15:28,937|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:15:33,950|last 5 mins data: {'Date': '20210118  11:15:00', 'Open': 3766.75, 'High': 3766.75, 'Low': 3766.75, 'Close': 3766.75, 'Volume': 45}
+2021-01-18 11:20:33,959|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:20:38,970|last 5 mins data: {'Date': '20210118  11:20:00', 'Open': 3766.75, 'High': 3767.0, 'Low': 3766.75, 'Close': 3767.0, 'Volume': 7}
+2021-01-18 11:25:38,976|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:25:43,982|last 5 mins data: {'Date': '20210118  11:25:00', 'Open': 3766.75, 'High': 3767.0, 'Low': 3766.75, 'Close': 3767.0, 'Volume': 23}
+2021-01-18 11:30:43,987|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:30:48,992|last 5 mins data: {'Date': '20210118  11:30:00', 'Open': 3765.25, 'High': 3765.75, 'Low': 3765.25, 'Close': 3765.75, 'Volume': 90}
+2021-01-18 11:35:48,995|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:35:54,004|last 5 mins data: {'Date': '20210118  11:35:00', 'Open': 3765.75, 'High': 3766.0, 'Low': 3765.75, 'Close': 3766.0, 'Volume': 40}
+2021-01-18 11:40:54,008|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:40:59,018|last 5 mins data: {'Date': '20210118  11:40:00', 'Open': 3766.0, 'High': 3766.5, 'Low': 3766.0, 'Close': 3766.25, 'Volume': 59}
+2021-01-18 11:42:50,794|ERROR -1 2103 Market data farm connection is broken:hfarm
+2021-01-18 11:42:53,446|ERROR -1 2104 Market data farm connection is OK:hfarm
+2021-01-18 11:43:22,325|ERROR -1 2103 Market data farm connection is broken:jfarm
+2021-01-18 11:43:23,842|ERROR -1 2103 Market data farm connection is broken:hfarm
+2021-01-18 11:43:25,156|ERROR -1 2104 Market data farm connection is OK:jfarm
+2021-01-18 11:43:29,273|ERROR -1 2104 Market data farm connection is OK:hfarm
+2021-01-18 11:45:59,027|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:46:04,038|last 5 mins data: {'Date': '20210118  11:45:00', 'Open': 3766.5, 'High': 3767.25, 'Low': 3766.25, 'Close': 3766.5, 'Volume': 121}
+2021-01-18 11:51:04,048|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:51:09,055|last 5 mins data: {'Date': '20210118  11:50:00', 'Open': 3766.75, 'High': 3767.25, 'Low': 3766.5, 'Close': 3767.0, 'Volume': 40}
+2021-01-18 11:56:09,059|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 11:56:14,064|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3768.0, 'Close': 3768.75, 'Volume': 367}
+2021-01-18 12:01:14,067|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:01:19,073|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:06:19,081|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:06:24,094|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:11:24,102|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:11:29,114|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:16:29,123|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:16:34,128|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:21:34,134|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:21:39,145|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:26:39,153|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:26:44,161|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:31:36,128|ERROR 3 202 Order Canceled - reason:
+2021-01-18 12:31:44,164|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:31:49,176|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:36:49,183|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:36:54,196|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:41:54,207|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:41:59,211|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:46:59,218|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:46:59,219|ERROR 1 504 Not connected
+2021-01-18 12:47:04,228|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:52:04,236|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:52:04,236|ERROR 1 504 Not connected
+2021-01-18 12:52:09,243|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 12:57:09,254|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 12:57:09,254|ERROR 1 504 Not connected
+2021-01-18 12:57:14,261|last 5 mins data: {'Date': '20210118  11:55:00', 'Open': 3768.25, 'High': 3769.0, 'Low': 3766.75, 'Close': 3768.5, 'Volume': 2175}
+2021-01-18 13:04:16,965|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 13:04:16,965|ERROR 1 504 Not connected
+2021-01-18 13:05:31,018|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 13:05:36,033|last 5 mins data: {'Date': '20210118  11:50:00', 'Open': 3766.75, 'High': 3768.25, 'Low': 3766.5, 'Close': 3768.0, 'Volume': 614}
+2021-01-18 13:10:36,037|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 13:10:41,050|last 5 mins data: {'Date': '20210118  11:50:00', 'Open': 3766.75, 'High': 3768.25, 'Low': 3766.5, 'Close': 3768.0, 'Volume': 614}
+2021-01-18 20:48:00,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:48:05,006|last 5 mins data: {'Date': '20210118  20:40:00', 'Open': 3781.5, 'High': 3783.5, 'Low': 3781.5, 'Close': 3782.75, 'Volume': 592}
+2021-01-18 20:49:00,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:49:05,005|last 5 mins data: {'Date': '20210118  20:40:00', 'Open': 3781.5, 'High': 3783.5, 'Low': 3781.5, 'Close': 3782.75, 'Volume': 592}
+2021-01-18 20:50:00,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:50:05,005|last 5 mins data: {'Date': '20210118  20:40:00', 'Open': 3781.5, 'High': 3783.5, 'Low': 3781.5, 'Close': 3782.75, 'Volume': 592}
+2021-01-18 20:50:46,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:50:51,007|last 5 mins data: {'Date': '20210118  20:45:00', 'Open': 3782.75, 'High': 3783.0, 'Low': 3782.0, 'Close': 3782.5, 'Volume': 334}
+2021-01-18 20:50:52,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:50:57,003|last 5 mins data: {'Date': '20210118  20:45:00', 'Open': 3782.75, 'High': 3783.0, 'Low': 3782.0, 'Close': 3782.5, 'Volume': 334}
+2021-01-18 20:50:58,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:51:03,004|last 5 mins data: {'Date': '20210118  20:45:00', 'Open': 3782.75, 'High': 3783.0, 'Low': 3782.0, 'Close': 3782.5, 'Volume': 334}
+2021-01-18 20:55:00,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:05,007|last 5 mins data: {'Date': '20210118  20:45:00', 'Open': 3782.75, 'High': 3783.0, 'Low': 3782.0, 'Close': 3782.5, 'Volume': 334}
+2021-01-18 20:55:06,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:11,006|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:12,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:17,006|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:18,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:23,006|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:24,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:29,003|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:30,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:35,005|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:36,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:41,006|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:42,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:47,006|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:48,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:53,006|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 20:55:54,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 20:55:59,004|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 21:00:00,000|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:05,007|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 21:00:05,007|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:10,032|last 5 mins data: {'Date': '20210118  20:50:00', 'Open': 3782.5, 'High': 3783.5, 'Low': 3782.25, 'Close': 3783.25, 'Volume': 344}
+2021-01-18 21:00:10,033|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:15,038|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:15,039|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:20,044|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:20,044|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:25,050|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:25,050|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:30,055|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:30,056|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:35,062|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:35,062|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:40,068|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:40,069|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:45,074|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:45,075|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:50,081|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:50,081|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:00:55,087|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-18 21:00:55,087|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-18 21:01:00,090|last 5 mins data: {'Date': '20210118  20:55:00', 'Open': 3783.0, 'High': 3783.5, 'Low': 3782.75, 'Close': 3783.25, 'Volume': 211}
+2021-01-19 08:20:53,038|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:21:32,995|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:22:09,680|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:22:14,684|last 5 mins data: {"1":{"182":{"Date":"20210119  08:10:00","Open":3787.75,"High":3788.5,"Low":3786.25,"Close":3788.0,"Volume":1667},"183":{"Date":"20210119  08:15:00","Open":3788.25,"High":3789.5,"Low":3788.0,"Close":3789.5,"Volume":2621}}}
+2021-01-19 08:23:49,002|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:23:54,009|last 5 mins data: {'182': {'Date': '20210119  08:10:00', 'Open': 3787.75, 'High': 3788.5, 'Low': 3786.25, 'Close': 3788.0, 'Volume': 1667}, '183': {'Date': '20210119  08:15:00', 'Open': 3788.25, 'High': 3789.5, 'Low': 3788.0, 'Close': 3789.5, 'Volume': 2621}}
+2021-01-19 08:28:04,010|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:28:09,016|last 5 mins data: {'368': {'Date': '20210119  08:15:00', 'Open': 3788.25, 'High': 3789.5, 'Low': 3788.0, 'Close': 3789.5, 'Volume': 2621}, '369': {'Date': '20210119  08:20:00', 'Open': 3789.25, 'High': 3790.0, 'Low': 3788.75, 'Close': 3789.5, 'Volume': 1963}}
+2021-01-19 08:32:19,017|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:32:24,024|last 5 mins data: {'555': {'Date': '20210119  08:20:00', 'Open': 3789.25, 'High': 3790.0, 'Low': 3788.75, 'Close': 3789.5, 'Volume': 1963}, '556': {'Date': '20210119  08:25:00', 'Open': 3789.25, 'High': 3789.5, 'Low': 3787.5, 'Close': 3788.25, 'Volume': 4521}}
+2021-01-19 08:36:34,042|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:36:39,049|last 5 mins data: {'743': {'Date': '20210119  08:25:00', 'Open': 3789.25, 'High': 3789.5, 'Low': 3787.5, 'Close': 3788.25, 'Volume': 4521}, '744': {'Date': '20210119  08:30:00', 'Open': 3788.25, 'High': 3792.5, 'Low': 3784.5, 'Close': 3786.0, 'Volume': 45622}}
+2021-01-19 08:40:49,053|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:40:54,058|last 5 mins data: {'932': {'Date': '20210119  08:30:00', 'Open': 3788.25, 'High': 3792.5, 'Low': 3784.5, 'Close': 3786.0, 'Volume': 45622}, '933': {'Date': '20210119  08:35:00', 'Open': 3786.25, 'High': 3787.75, 'Low': 3784.25, 'Close': 3785.5, 'Volume': 25289}}
+2021-01-19 08:45:04,065|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:45:09,069|last 5 mins data: {'1121': {'Date': '20210119  08:30:00', 'Open': 3788.25, 'High': 3792.5, 'Low': 3784.5, 'Close': 3786.0, 'Volume': 45622}, '1122': {'Date': '20210119  08:35:00', 'Open': 3786.25, 'High': 3787.75, 'Low': 3784.25, 'Close': 3785.5, 'Volume': 25289}}
+2021-01-19 08:49:19,076|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:49:24,079|last 5 mins data: {'1311': {'Date': '20210119  08:35:00', 'Open': 3786.25, 'High': 3787.75, 'Low': 3784.25, 'Close': 3785.5, 'Volume': 25289}, '1312': {'Date': '20210119  08:40:00', 'Open': 3785.5, 'High': 3787.25, 'Low': 3783.5, 'Close': 3783.75, 'Volume': 20262}}
+2021-01-19 08:53:34,082|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:53:39,086|last 5 mins data: {'1502': {'Date': '20210119  08:40:00', 'Open': 3785.5, 'High': 3787.25, 'Low': 3783.5, 'Close': 3783.75, 'Volume': 20262}, '1503': {'Date': '20210119  08:45:00', 'Open': 3783.5, 'High': 3785.75, 'Low': 3778.5, 'Close': 3779.25, 'Volume': 29020}}
+2021-01-19 08:57:49,089|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 08:57:54,092|last 5 mins data: {'1694': {'Date': '20210119  08:45:00', 'Open': 3783.5, 'High': 3785.75, 'Low': 3778.5, 'Close': 3779.25, 'Volume': 29020}, '1695': {'Date': '20210119  08:50:00', 'Open': 3779.25, 'High': 3780.75, 'Low': 3777.25, 'Close': 3778.25, 'Volume': 22934}}
+2021-01-19 09:37:00,442|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 09:37:05,449|last 5 mins data: {'197': {'Date': '20210119  09:25:00', 'Open': 3775.25, 'High': 3780.5, 'Low': 3775.0, 'Close': 3780.5, 'Volume': 14970}, '198': {'Date': '20210119  09:30:00', 'Open': 3780.5, 'High': 3781.75, 'Low': 3779.25, 'Close': 3781.0, 'Volume': 13652}}
+2021-01-19 09:38:32,191|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 09:38:37,198|last 5 mins data: {'197': {'Date': '20210119  09:25:00', 'Open': 3775.25, 'High': 3780.5, 'Low': 3775.0, 'Close': 3780.5, 'Volume': 14970}, '198': {'Date': '20210119  09:30:00', 'Open': 3780.5, 'High': 3781.75, 'Low': 3779.25, 'Close': 3781.0, 'Volume': 13652}}
+2021-01-19 09:39:44,166|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 09:39:49,172|last 5 mins data: {'197': {'Date': '20210119  09:25:00', 'Open': 3775.25, 'High': 3780.5, 'Low': 3775.0, 'Close': 3780.5, 'Volume': 14970}, '198': {'Date': '20210119  09:30:00', 'Open': 3780.5, 'High': 3781.75, 'Low': 3779.25, 'Close': 3781.0, 'Volume': 13652}}
+2021-01-19 09:39:56,669|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 09:40:01,676|last 5 mins data: {'197': {'Date': '20210119  09:25:00', 'Open': 3775.25, 'High': 3780.5, 'Low': 3775.0, 'Close': 3780.5, 'Volume': 14970}, '198': {'Date': '20210119  09:30:00', 'Open': 3780.5, 'High': 3781.75, 'Low': 3779.25, 'Close': 3781.0, 'Volume': 13652}}
+2021-01-19 09:48:34,483|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 09:48:39,488|last 5 mins data: {'199': {'Date': '20210119  09:35:00', 'Open': 3781.0, 'High': 3781.75, 'Low': 3779.25, 'Close': 3779.25, 'Volume': 8934}, '200': {'Date': '20210119  09:40:00', 'Open': 3779.25, 'High': 3784.0, 'Low': 3778.0, 'Close': 3784.0, 'Volume': 13330}}
