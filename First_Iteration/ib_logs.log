@@ -267,3 +267,72 @@
 2021-01-19 09:40:01,676|last 5 mins data: {'197': {'Date': '20210119  09:25:00', 'Open': 3775.25, 'High': 3780.5, 'Low': 3775.0, 'Close': 3780.5, 'Volume': 14970}, '198': {'Date': '20210119  09:30:00', 'Open': 3780.5, 'High': 3781.75, 'Low': 3779.25, 'Close': 3781.0, 'Volume': 13652}}
 2021-01-19 09:48:34,483|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
 2021-01-19 09:48:39,488|last 5 mins data: {'199': {'Date': '20210119  09:35:00', 'Open': 3781.0, 'High': 3781.75, 'Low': 3779.25, 'Close': 3779.25, 'Volume': 8934}, '200': {'Date': '20210119  09:40:00', 'Open': 3779.25, 'High': 3784.0, 'Low': 3778.0, 'Close': 3784.0, 'Volume': 13330}}
+2021-01-19 10:40:21,417|ERROR -1 1100 Connectivity between IB and Trader Workstation has been lost.
+2021-01-19 10:40:54,203|ERROR -1 1100 Connectivity between IB and Trader Workstation has been lost.
+2021-01-19 10:40:54,724|ERROR -1 2103 Market data farm connection is broken:hfarm
+2021-01-19 10:40:54,728|ERROR -1 2103 Market data farm connection is broken:usfarm.nj
+2021-01-19 10:40:54,732|ERROR -1 2103 Market data farm connection is broken:eufarm
+2021-01-19 10:40:54,734|ERROR -1 2103 Market data farm connection is broken:jfarm
+2021-01-19 10:40:54,737|ERROR -1 2103 Market data farm connection is broken:usfuture
+2021-01-19 10:40:54,740|ERROR -1 2103 Market data farm connection is broken:cashfarm
+2021-01-19 10:40:54,755|ERROR -1 2103 Market data farm connection is broken:usfarm
+2021-01-19 10:40:54,757|ERROR -1 2157 Sec-def data farm connection is broken:secdefil
+2021-01-19 10:40:54,758|ERROR -1 2105 HMDS data farm connection is broken:euhmds
+2021-01-19 10:40:54,760|ERROR -1 2105 HMDS data farm connection is broken:fundfarm
+2021-01-19 10:40:54,762|ERROR -1 2105 HMDS data farm connection is broken:ushmds
+2021-01-19 13:07:26,081|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:07:31,086|last 5 mins data: {'239': {'Date': '20210119  12:55:00', 'Open': 3796.75, 'High': 3797.0, 'Low': 3795.5, 'Close': 3795.75, 'Volume': 5433}, '240': {'Date': '20210119  13:00:00', 'Open': 3796.0, 'High': 3796.25, 'Low': 3793.75, 'Close': 3794.0, 'Volume': 10795}}
+2021-01-19 13:11:06,235|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.hfarm
+2021-01-19 13:11:06,236|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.hfarm
+2021-01-19 13:11:06,236|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.jfarm
+2021-01-19 13:11:06,236|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.jfarm
+2021-01-19 13:11:06,237|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.eufarm
+2021-01-19 13:11:06,237|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.eufarm
+2021-01-19 13:11:06,237|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.usfuture
+2021-01-19 13:11:06,238|ERROR -1 2108 Market data farm connection is inactive but should be available upon demand.usfuture
+2021-01-19 13:11:30,523|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:11:35,530|last 5 mins data: {'240': {'Date': '20210119  13:00:00', 'Open': 3796.0, 'High': 3796.25, 'Low': 3793.75, 'Close': 3794.0, 'Volume': 10795}, '241': {'Date': '20210119  13:05:00', 'Open': 3794.0, 'High': 3795.75, 'Low': 3793.75, 'Close': 3795.75, 'Volume': 4677}}
+2021-01-19 13:12:36,388|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:12:41,393|last 5 mins data: {'240': {'Date': '20210119  13:00:00', 'Open': 3796.0, 'High': 3796.25, 'Low': 3793.75, 'Close': 3794.0, 'Volume': 10795}, '241': {'Date': '20210119  13:05:00', 'Open': 3794.0, 'High': 3795.75, 'Low': 3793.75, 'Close': 3795.75, 'Volume': 4677}}
+2021-01-19 13:20:22,269|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:20:27,276|last 5 mins data: {'242': {'Date': '20210119  13:10:00', 'Open': 3795.75, 'High': 3796.0, 'Low': 3795.0, 'Close': 3796.0, 'Volume': 3812}, '243': {'Date': '20210119  13:15:00', 'Open': 3796.0, 'High': 3796.25, 'Low': 3794.5, 'Close': 3795.0, 'Volume': 3648}}
+2021-01-19 13:23:10,308|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:23:25,695|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:25:38,828|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:26:15,596|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:27:05,781|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:27:10,788|last 5 mins data: {'243': {'Date': '20210119  13:15:00', 'Open': 3796.0, 'High': 3796.25, 'Low': 3794.5, 'Close': 3795.0, 'Volume': 3648}, '244': {'Date': '20210119  13:20:00', 'Open': 3795.0, 'High': 3795.75, 'Low': 3794.25, 'Close': 3794.25, 'Volume': 4560}}
+2021-01-19 13:27:10,789|Manipulated data [{'previous': {'Date': '20210119  13:15:00', 'Open': 3796.0, 'High': 3796.25, 'Low': 3794.5, 'Close': 3795.0, 'Volume': 3648}}, {'latest': {'Date': '20210119  13:20:00', 'Open': 3795.0, 'High': 3795.75, 'Low': 3794.25, 'Close': 3794.25, 'Volume': 4560}}]
+2021-01-19 13:37:34,252|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:37:39,258|last 5 mins data: {'245': {'Date': '20210119  13:25:00', 'Open': 3794.25, 'High': 3795.5, 'Low': 3793.0, 'Close': 3793.75, 'Volume': 6074}, '246': {'Date': '20210119  13:30:00', 'Open': 3794.0, 'High': 3795.0, 'Low': 3791.5, 'Close': 3793.25, 'Volume': 7615}}
+2021-01-19 13:37:39,261|Manipulated data [{'previous': {'Date': '20210119  13:25:00', 'Open': 3794.25, 'High': 3795.5, 'Low': 3793.0, 'Close': 3793.75, 'Volume': 6074}}, {'latest': {'Date': '20210119  13:30:00', 'Open': 3794.0, 'High': 3795.0, 'Low': 3791.5, 'Close': 3793.25, 'Volume': 7615}}]
+2021-01-19 13:40:25,883|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:40:30,887|last 5 mins data: {'246': {'Date': '20210119  13:30:00', 'Open': 3794.0, 'High': 3795.0, 'Low': 3791.5, 'Close': 3793.25, 'Volume': 7615}, '247': {'Date': '20210119  13:35:00', 'Open': 3793.25, 'High': 3793.5, 'Low': 3791.5, 'Close': 3791.5, 'Volume': 5553}}
+2021-01-19 13:40:30,889|Manipulated data [{'previous': {'Date': '20210119  13:30:00', 'Open': 3794.0, 'High': 3795.0, 'Low': 3791.5, 'Close': 3793.25, 'Volume': 7615}}, {'latest': {'Date': '20210119  13:35:00', 'Open': 3793.25, 'High': 3793.5, 'Low': 3791.5, 'Close': 3791.5, 'Volume': 5553}}]
+2021-01-19 13:40:49,938|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:40:54,943|last 5 mins data: {'246': {'Date': '20210119  13:30:00', 'Open': 3794.0, 'High': 3795.0, 'Low': 3791.5, 'Close': 3793.25, 'Volume': 7615}, '247': {'Date': '20210119  13:35:00', 'Open': 3793.25, 'High': 3793.5, 'Low': 3791.5, 'Close': 3791.5, 'Volume': 5553}}
+2021-01-19 13:40:54,946|Manipulated data [{'previous': {'Date': '20210119  13:30:00', 'Open': 3794.0, 'High': 3795.0, 'Low': 3791.5, 'Close': 3793.25, 'Volume': 7615}}, {'latest': {'Date': '20210119  13:35:00', 'Open': 3793.25, 'High': 3793.5, 'Low': 3791.5, 'Close': 3791.5, 'Volume': 5553}}]
+2021-01-19 13:57:00,251|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 13:57:05,258|last 5 mins data: {'249': {'Date': '20210119  13:45:00', 'Open': 3790.75, 'High': 3793.25, 'Low': 3790.0, 'Close': 3793.0, 'Volume': 6833}, '250': {'Date': '20210119  13:50:00', 'Open': 3793.25, 'High': 3794.0, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 6059}}
+2021-01-19 14:00:38,589|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 14:00:43,595|last 5 mins data: {'250': {'Date': '20210119  13:50:00', 'Open': 3793.25, 'High': 3794.0, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 6059}, '251': {'Date': '20210119  13:55:00', 'Open': 3792.75, 'High': 3794.25, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 5759}}
+2021-01-19 14:00:43,623|Manipulated data [{'previous': {'Date': '20210119  13:50:00', 'Open': 3793.25, 'High': 3794.0, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 6059}}, {'latest': {'Date': '20210119  13:55:00', 'Open': 3792.75, 'High': 3794.25, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 5759}}]
+2021-01-19 14:02:36,992|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 14:02:41,997|last 5 mins data: {'250': {'Date': '20210119  13:50:00', 'Open': 3793.25, 'High': 3794.0, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 6059}, '251': {'Date': '20210119  13:55:00', 'Open': 3792.75, 'High': 3794.25, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 5759}}
+2021-01-19 14:02:41,999|Manipulated data [{'previous': {'Date': '20210119  13:50:00', 'Open': 3793.25, 'High': 3794.0, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 6059}}, {'latest': {'Date': '20210119  13:55:00', 'Open': 3792.75, 'High': 3794.25, 'Low': 3792.0, 'Close': 3793.0, 'Volume': 5759}}]
+2021-01-19 14:45:54,533|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 14:45:59,541|last 5 mins data: {'259': {'Date': '20210119  14:35:00', 'Open': 3794.5, 'High': 3794.75, 'Low': 3792.5, 'Close': 3794.0, 'Volume': 13326}, '260': {'Date': '20210119  14:40:00', 'Open': 3794.0, 'High': 3796.0, 'Low': 3793.0, 'Close': 3795.0, 'Volume': 9651}}
+2021-01-19 14:45:59,543|Manipulated data {'latest': {'Date': '20210119  14:40:00', 'Open': 3794.0, 'High': 3796.0, 'Low': 3793.0, 'Close': 3795.0, 'Volume': 9651}}
+2021-01-19 15:01:02,471|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 15:01:07,479|last 5 mins data: {'262': {'Date': '20210119  14:50:00', 'Open': 3792.75, 'High': 3795.25, 'Low': 3792.0, 'Close': 3794.5, 'Volume': 19941}, '263': {'Date': '20210119  14:55:00', 'Open': 3794.5, 'High': 3795.75, 'Low': 3790.0, 'Close': 3790.25, 'Volume': 76409}}
+2021-01-19 15:01:07,481|Manipulated data [{'previous': {'Date': '20210119  14:50:00', 'Open': 3792.75, 'High': 3795.25, 'Low': 3792.0, 'Close': 3794.5, 'Volume': 19941}}, {'latest': {'Date': '20210119  14:55:00', 'Open': 3794.5, 'High': 3795.75, 'Low': 3790.0, 'Close': 3790.25, 'Volume': 76409}}]
+2021-01-19 15:02:19,134|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 15:02:24,139|last 5 mins data: {'262': {'Date': '20210119  14:50:00', 'Open': 3792.75, 'High': 3795.25, 'Low': 3792.0, 'Close': 3794.5, 'Volume': 19941}, '263': {'Date': '20210119  14:55:00', 'Open': 3794.5, 'High': 3795.75, 'Low': 3790.0, 'Close': 3790.25, 'Volume': 76409}}
+2021-01-19 15:02:24,142|Manipulated data [{'previous': {'Date': '20210119  14:50:00', 'Open': 3792.75, 'High': 3795.25, 'Low': 3792.0, 'Close': 3794.5, 'Volume': 19941}}, {'latest': {'Date': '20210119  14:55:00', 'Open': 3794.5, 'High': 3795.75, 'Low': 3790.0, 'Close': 3790.25, 'Volume': 76409}}]
+2021-01-19 16:36:17,165|{'candle_color': 'red', 'body_range': 1.25, 'top_wick': 0.25, 'bottom_wick': 3.0}
+2021-01-19 16:37:24,165|{'candle_color': 'red', 'body_range': 0.5, 'top_wick': 2.75, 'bottom_wick': 0.75}
+2021-01-19 17:15:00,824|{'candle_color': 'grn', 'candle_range': 2.25, 'body_range': 0.25, 'top_wick': 0.5, 'bottom_wick': 1.5, 'volume_prev': 6059, 'volume_cur': 9759}
+2021-01-19 17:15:00,824|bullish hammer {'candle_color': 'grn', 'candle_range': 2.25, 'body_range': 0.25, 'top_wick': 0.5, 'bottom_wick': 1.5, 'volume_prev': 6059, 'volume_cur': 9759}
+2021-01-19 17:16:28,405|Contract details extracted 0,ES,FUT,202103,0.0,,,GLOBEX,,USD,,,False,,combo:
+2021-01-19 17:16:33,409|last 5 mins data: {'1': {'Date': '20210119  17:05:00', 'Open': 3799.25, 'High': 3800.75, 'Low': 3798.75, 'Close': 3800.5, 'Volume': 957}, '2': {'Date': '20210119  17:10:00', 'Open': 3800.5, 'High': 3800.75, 'Low': 3798.5, 'Close': 3799.25, 'Volume': 794}}
+2021-01-19 17:16:33,411|Manipulated data [{'previous': {'Date': '20210119  17:05:00', 'Open': 3799.25, 'High': 3800.75, 'Low': 3798.75, 'Close': 3800.5, 'Volume': 957}}, {'latest': {'Date': '20210119  17:10:00', 'Open': 3800.5, 'High': 3800.75, 'Low': 3798.5, 'Close': 3799.25, 'Volume': 794}}]
