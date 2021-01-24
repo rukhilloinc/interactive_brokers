@@ -81,11 +81,10 @@ def get_open_positions():
     return pos_df
 
 
-def get_pnl():
-    app.reqPnL(1, "DU3148837", "")
+def get_pnl(acc_num):
+    app.reqPnL(1, acc_num, "")
     time.sleep(1)
-    pnl_summ_df = app.pnldef
-    return pnl_summ_df
+    return app.pnldef
 
 
 def get_account_summary():

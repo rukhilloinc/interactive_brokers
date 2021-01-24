@@ -1,6 +1,3 @@
-import random
-import uuid
-
 from ibapi.client import EClient
 from ibapi.wrapper import EWrapper
 from ibapi.contract import Contract
@@ -9,6 +6,7 @@ import threading
 import time
 
 from logger import log
+from v1.const import LOG_PATH
 
 
 class Orders(EWrapper, EClient):
@@ -52,7 +50,7 @@ def market_order(action, size):
     order.orderType = "MKT"
     order.totalQuantity = size
     app.placeOrder(app.nextValidOrderId, contract(), order)
-    log(f'market order placed, {action, size}')
+    log(f'market order placed, {action, size}', LOG_PATH)
 
 
 def stop_order(order_id, action, size, stopPrice):
