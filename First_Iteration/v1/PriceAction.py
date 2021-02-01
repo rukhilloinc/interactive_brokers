@@ -123,8 +123,8 @@ def price_action(period, timeframe):
                     pass
             elif cur_c < cur_o:
                 if (cur_h - cur_l) > (abs(cur_h - cur_c) * 3):
-                    log(f'{shooting_star}', LOG_PATH)
-                    send_telegram(shooting_star)
+                    log(f'{hammer}', LOG_PATH)
+                    send_telegram(hammer)
                     return {'datetime': cur_d, 'high': cur_h, 'price_action': 'hammer'}
                 else:
                     pass
