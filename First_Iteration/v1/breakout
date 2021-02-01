@@ -1,28 +1,30 @@
-
 def breakout_up(zone_high, data):
     prev_c = data[0]['previous']['Close']
     prev_d = data[0]['previous']['Date']
     cur_h = data[1]['latest']['High']
+    prev_h = data[1]['previous']['High']
     cur_c = data[1]['latest']['Close']
 
     if len(prev_d) > 0:
         if cur_h >= zone_high['price']:
             print('Resistance touched')
-        if prev_c > zone_high['price'] and cur_c > zone_high['price']:
+        if prev_c > zone_high['price'] and cur_c > zone_high['price'] and cur_h > prev_h:
             print(f"{zone_high['price']} broken out truly")
         elif prev_c > zone_high['price'] > cur_c:
             print(f"{zone_high['price']} false breakout")
+
 
 def breakout_down(zone_low, data):
     prev_c = data[0]['previous']['Close']
     prev_d = data[0]['previous']['Date']
     cur_l = data[1]['latest']['Low']
+    prev_l = data[1]['latest']['Low']
     cur_c = data[1]['latest']['Close']
 
     if len(prev_d) > 0:
         if cur_l <= zone_low['price']:
             print('Resistance touched')
-        if prev_c < zone_low['price'] and cur_c < zone_low['price']:
+        if prev_c < zone_low['price'] and cur_c < zone_low['price'] and cur_l < prev_l:
             print(f"{zone_low['price']} broken out truly")
         elif prev_c < zone_low['price'] < cur_c:
             print(f"{zone_low['price']} false breakout")
