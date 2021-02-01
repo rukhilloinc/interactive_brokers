@@ -7,14 +7,14 @@ import pandas as pd
 import threading
 import json
 import time
-from logger import log
-from telegram import send_telegram
-from v1.const import LOG_PATH
+from First_Iteration.logger import log
+from First_Iteration.telegram import send_telegram
+from First_Iteration.v1.const import LOG_PATH
 
 bull_engulf = f'Bullish Engulfing'
 bear_engulf = f'Bearish Engulfing'
-hammer = f'Hammer'
-shooting_star = f'Shooting star'
+hammer = f'Bullish Hammer'
+shooting_star = f'Bearish Shooting star'
 
 
 class PriceAction(EWrapper, EClient):
@@ -33,7 +33,7 @@ class PriceAction(EWrapper, EClient):
             self.data[reqId].append(
                 {"Date": bar.date, "Open": bar.open, "High": bar.high, "Low": bar.low, "Close": bar.close,
                  "Volume": bar.volume})
-        # log(f" historicalData:reqID:{reqId}, date:{bar.date}, open:{bar.open}, high:{bar.high}, low:{bar.low},
+        # print(f" historicalData:reqID:{reqId}, date:{bar.date}, open:{bar.open}, high:{bar.high}, low:{bar.low}")
         # close:{bar.close}, volume:{bar.volume}")
 
 
@@ -112,64 +112,63 @@ def price_action(period, timeframe):
     cur_o = data[1]['latest']['Open']
     cur_c = data[1]['latest']['Close']
 
-    if cur_o > cur_c:
-        candle_color = 'red'
-        candle_range = cur_h - cur_l
-        body_range = cur_o - cur_c
-        top_wick = cur_h - cur_o
-        bottom_wick = cur_c - cur_l
-        dic = {'candle_color': candle_color, 'candle_range': candle_range, 'body_range': body_range,
-               'top_wick': top_wick, 'bottom_wick': bottom_wick, 'volume_prev': volume_prev,
-               'volume_cur': volume_cur, 'cur_o': cur_o, 'cur_h': cur_h, 'cur_l': cur_l, 'cur_c': cur_c}
-    elif cur_c > cur_o:
-        candle_color = 'grn'
-        candle_range = cur_h - cur_l
-        body_range = cur_c - cur_o
-        top_wick = cur_h - cur_c
-        bottom_wick = cur_o - cur_l
-        dic = {'candle_color': candle_color, 'candle_range': candle_range, 'body_range': body_range,
-               'top_wick': top_wick, 'bottom_wick': bottom_wick, 'volume_prev': volume_prev,
-               'volume_cur': volume_cur, 'cur_o': cur_o, 'cur_h': cur_h, 'cur_l': cur_l, 'cur_c': cur_c}
-    else:
-        dic = {'candle': 'indecision'}
-
-    if 'bottom_wick' in dic.keys():
-        if dic['volume_prev'] < dic['volume_cur']:
-            if dic['bottom_wick'] > dic['top_wick'] and dic['candle_range'] > dic['body_range'] * 3 \
-                    and dic['bottom_wick'] > dic['body_range'] * 1.5 > dic['top_wick']:
-                log(f'{hammer} {dic}', LOG_PATH)
-                send_telegram(hammer)
-                # return {'datetime': cur_d, 'high': cur_h, 'price_action': 'hammer'}
-            elif dic['bottom_wick'] < dic['top_wick'] and dic['candle_range'] > dic['body_range'] * 3 \
-                    and dic['top_wick'] > dic['body_range'] * 1.5 > dic['bottom_wick']:
-                log(f'{shooting_star} {dic}', LOG_PATH)
-                send_telegram(shooting_star)
-                # return {'datetime': cur_d, 'low': cur_l, 'price_action': 'shooting_star'}
-    else:
-        pass
-
-    if volume_prev < volume_cur:
-        if cur_h > prev_h and cur_l < prev_l:
-            if cur_o < cur_c:
-                d = {'cur_h': cur_h, 'cur_l': cur_l, 'prev_h': prev_h, 'prev_l': prev_l, 'volume_prev': volume_prev,
-                     'volume_cur': volume_cur}
-                log(f'{bull_engulf} data: {d}', LOG_PATH)
-                send_telegram(bull_engulf)
-                # return {'datetime': cur_d, 'high': cur_h, 'price_action': 'bull_engulf'}
-            elif cur_o > cur_c:
-                d = {'cur_h': cur_h, 'cur_l': cur_l, 'prev_h': prev_h, 'prev_l': prev_l, 'volume_prev': volume_prev,
-                     'volume_cur': volume_cur}
-                log(f'{bear_engulf} data: {d}', LOG_PATH)
-                send_telegram(bear_engulf)
-                # return {'datetime': cur_d, 'low': cur_l, 'price_action': 'bear_engulf'}
-            elif cur_o == cur_c:
-                d = {'cur_h': cur_h, 'cur_l': cur_l, 'prev_h': prev_h, 'prev_l': prev_l, 'volume_prev': volume_prev,
-                     'volume_cur': volume_cur}
-                log(f'indecision engulfing, data: {d}', LOG_PATH)
-                send_telegram('indecision engulfing')
-
+    if len(cur_d) > 0:
+        if volume_cur > volume_prev:
+            if cur_c > cur_o:
+                if (cur_h - cur_l) > (cur_h - cur_o) * 3:
+                    log(f'{hammer}', LOG_PATH)
+                    send_telegram(hammer)
+                    return {'datetime': cur_d, 'high': cur_h, 'price_action': 'hammer'}
+                else:
+                    pass
+            elif cur_c < cur_o:
+                if (cur_h - cur_l) > (cur_h - cur_c) * 3:
+                    log(f'{shooting_star}', LOG_PATH)
+                    send_telegram(shooting_star)
+                    return {'datetime': cur_d, 'high': cur_h, 'price_action': 'hammer'}
+                else:
+                    pass
         else:
             pass
+
+    if len(cur_d) > 0:
+        if volume_cur > volume_prev:
+            if cur_c > cur_o:
+                if (cur_h - cur_l) > (cur_l - cur_c) * 3:
+                    log(f'{shooting_star}', LOG_PATH)
+                    send_telegram(shooting_star)
+                    return {'datetime': cur_d, 'high': cur_l, 'price_action': 'shooting_star'}
+                else:
+                    pass
+            elif cur_c < cur_o:
+                if (cur_h - cur_l) > (cur_l - cur_o) * 3:
+                    log(f'{shooting_star}', LOG_PATH)
+                    send_telegram(shooting_star)
+                    return {'datetime': cur_d, 'high': cur_l, 'price_action': 'shooting_star'}
+                else:
+                    pass
+        else:
+            pass
+    else:
+        pass
+    if len(cur_d) > 0:
+        if volume_prev < volume_cur:
+            if cur_h > prev_h and cur_l < prev_l:
+                if cur_o < cur_c:
+                    log(f'{bull_engulf}', LOG_PATH)
+                    send_telegram(bull_engulf)
+                    return {'datetime': cur_d, 'high': cur_h, 'price_action': 'bull_engulf'}
+                elif cur_o > cur_c:
+                    log(f'{bear_engulf}', LOG_PATH)
+                    send_telegram(bear_engulf)
+                    return {'datetime': cur_d, 'low': cur_l, 'price_action': 'bear_engulf'}
+                elif cur_o == cur_c:
+                    log(f'indecision engulfing', LOG_PATH)
+                    send_telegram('indecision engulfing')
+            else:
+                pass
+    else:
+        pass
 
 
 try:
