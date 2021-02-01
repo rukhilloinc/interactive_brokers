@@ -115,14 +115,14 @@ def price_action(period, timeframe):
     if len(cur_d) > 0:
         if volume_cur > volume_prev:
             if cur_c > cur_o:
-                if (cur_h - cur_l) > (cur_h - cur_o) * 3:
+                if (cur_h - cur_l) > (abs(cur_h - cur_o) * 3):
                     log(f'{hammer}', LOG_PATH)
                     send_telegram(hammer)
                     return {'datetime': cur_d, 'high': cur_h, 'price_action': 'hammer'}
                 else:
                     pass
             elif cur_c < cur_o:
-                if (cur_h - cur_l) > (cur_h - cur_c) * 3:
+                if (cur_h - cur_l) > (abs(cur_h - cur_c) * 3):
                     log(f'{shooting_star}', LOG_PATH)
                     send_telegram(shooting_star)
                     return {'datetime': cur_d, 'high': cur_h, 'price_action': 'hammer'}
@@ -130,18 +130,20 @@ def price_action(period, timeframe):
                     pass
         else:
             pass
+    else:
+        pass
 
     if len(cur_d) > 0:
         if volume_cur > volume_prev:
             if cur_c > cur_o:
-                if (cur_h - cur_l) > (cur_l - cur_c) * 3:
+                if (cur_h - cur_l) > (abs(cur_l - cur_c) * 3):
                     log(f'{shooting_star}', LOG_PATH)
                     send_telegram(shooting_star)
                     return {'datetime': cur_d, 'high': cur_l, 'price_action': 'shooting_star'}
                 else:
                     pass
             elif cur_c < cur_o:
-                if (cur_h - cur_l) > (cur_l - cur_o) * 3:
+                if (cur_h - cur_l) > (abs(cur_l - cur_o) * 3):
                     log(f'{shooting_star}', LOG_PATH)
                     send_telegram(shooting_star)
                     return {'datetime': cur_d, 'high': cur_l, 'price_action': 'shooting_star'}
@@ -151,6 +153,7 @@ def price_action(period, timeframe):
             pass
     else:
         pass
+
     if len(cur_d) > 0:
         if volume_prev < volume_cur:
             if cur_h > prev_h and cur_l < prev_l:
