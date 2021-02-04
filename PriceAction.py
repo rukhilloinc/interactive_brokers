@@ -29,6 +29,8 @@ class Price_Action:
                         return {'datetime': self.cur_d, 'high': self.cur_h, 'price_action': 'hammer'}
                     else:
                         pass
+                else:
+                    pass
             else:
                 pass
         else:
@@ -53,6 +55,8 @@ class Price_Action:
                         return {'datetime': self.cur_d, 'high': self.cur_l, 'price_action': 'shooting_star'}
                     else:
                         pass
+                else:
+                    pass
             else:
                 pass
         else:
